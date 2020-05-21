@@ -1,0 +1,86 @@
+div.panel.custom-panel {
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 3px 4px 32px grey;
+}
+
+input.form-control.custom-input {
+    display: block;
+    width: 100%;
+    /* height: 34px; */
+    padding: 6px 16px;
+    font-size: 14px;
+    /* line-height: 1.42857143; */
+    color: #2e2e2e;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgb(184, 190, 204);
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input.form-control.custom-input:focus {
+    border-color: #73afea;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(115,175,234,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(115,175,234,0.6);
+}
+
+button.custom-button {
+    background-color: rgb(85, 177, 242);
+    color: white;
+    width: 90px;
+    height: 42px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+}
+
+button.custom-button:not(:disabled) {
+    background-color: rgb(85, 177, 242);
+}
+
+button.custom-button:focus:not(:disabled) {
+    background-color: rgb(85, 177, 242);
+}
+
+button.custom-button:hover:not(:disabled) {
+    background-color: rgb(85, 177, 242);
+}
+
+button.custom-button:disabled {
+    background-color: #ccc;
+    color: white;
+}
+
+button.custom-button:focus:disabled {
+    background-color: #ccc;
+    color: white;
+}
+
+button.custom-button:hover:disabled {
+    background-color: #ccc;
+    color: white;
+}
+
+.signup-header {
+    background-color:rgb(240,242,245);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: inset 0px -1px 0px rgb(184, 190, 204);
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(84,90,100);
+}
+
+.is-invalid-input:not(:focus) {
+    border-color: #ec5840 !important;
+}
+
+.login-title {
+    color: rgb(84,90,100);
+    /* font-weight: bolder; */
+    font-size: 16px;
+}
